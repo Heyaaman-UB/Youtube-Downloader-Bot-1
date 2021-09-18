@@ -5,11 +5,11 @@ from pyrogram import Client, Filters
 async def start(client, message):
     # return
     joinButton = InlineKeyboardMarkup([
-        [InlineKeyboardButton("Updates Channel", url="https://t.me/SDBOTs_inifinity")
+        [InlineKeyboardButton("Updates Channel", url="https://t.me/phoenix_empire")
       ],
       [ 
         InlineKeyboardButton(
-            "Support Group", url="https://t.me/SDBOTz")]
+            "Support Group", url="https://t.me/CFC_BOT_support")]
     ])  
-    helptxt = f"<b> Just send a Youtube url to download it in video or audio format!\n\n ~ @Damantha_Jasinghe </b>"
+    helptxt = f"<b> Just send a Youtube url to download it in video or audio format!\n\n ~ @heyaaman </b>"
     await message.reply_text(helptxt, reply_markup=joinButton)
